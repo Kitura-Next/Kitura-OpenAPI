@@ -1,16 +1,16 @@
 <p align="center">
-<a href="http://kitura.io/">
-<img src="https://raw.githubusercontent.com/IBM-Swift/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
+<a href="http://kituranext.org/">
+<img src="https://raw.githubusercontent.com/Kitura-Next/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
 </a>
 </p>
 
 
 <p align="center">
-<a href="http://www.kitura.io/">
-<img src="https://img.shields.io/badge/docs-kitura.io-1FBCE4.svg" alt="Docs">
+<a href="http://www.kituranext.org/">
+<img src="https://img.shields.io/badge/docs-kitura-1FBCE4.svg" alt="Docs">
 </a>
-<a href="https://travis-ci.org/IBM-Swift/Kitura-OpenAPI">
-<img src="https://travis-ci.org/IBM-Swift/Kitura-OpenAPI.svg?branch=master" alt="Build Status - Master">
+<a href="https://travis-ci.org/Kitura-Next/Kitura-OpenAPI">
+<img src="https://travis-ci.org/Kitura-Next/Kitura-OpenAPI.svg?branch=master" alt="Build Status - Master">
 </a>
 <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" alt="macOS">
 <img src="https://img.shields.io/badge/os-linux-green.svg?style=flat" alt="Linux">
@@ -22,7 +22,7 @@
 
 # Kitura-OpenAPI
 
-Kitura-OpenAPI is a library which makes it easy to add [OpenAPI](https://www.openapis.org/) (aka Swagger) support to your Codable routing-based [Kitura](https://github.com/IBM-Swift/Kitura) application.
+Kitura-OpenAPI is a library which makes it easy to add [OpenAPI](https://www.openapis.org/) (aka Swagger) support to your Codable routing-based [Kitura](https://github.com/Kitura-Next/Kitura) application.
 
 By using Kitura-OpenAPI you can:
 
@@ -31,10 +31,10 @@ By using Kitura-OpenAPI you can:
 
 ## Getting Started
 
-Add `Kitura-OpenAPI` to the dependencies within your application's `Package.swift` file. Substitute `"x.x.x"` with the latest `Kitura-OpenAPI` [release](https://github.com/IBM-Swift/Kitura-OpenAPI/releases).
+Add `Kitura-OpenAPI` to the dependencies within your application's `Package.swift` file. Substitute `"x.x.x"` with the latest `Kitura-OpenAPI` [release](https://github.com/Kitura-Next/Kitura-OpenAPI/releases).
 
 ```swift
-.package(url: "https://github.com/IBM-Swift/Kitura-OpenAPI.git", from: "x.x.x")
+.package(url: "https://github.com/Kitura-Next/Kitura-OpenAPI.git", from: "x.x.x")
 ```
 Add `KituraOpenAPI` to your target's dependencies:
 
@@ -84,6 +84,6 @@ We love to talk server-side Swift and Kitura. Join our [Slack](http://swift-at-i
 
 ## License
 
-This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/IBM-Swift/Kitura-OpenAPI/blob/master/LICENSE).
+This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/Kitura-Next/Kitura-OpenAPI/blob/master/LICENSE).
 
 This library includes components from [Swagger-UI](https://github.com/swagger-api/swagger-ui), which is licensed under Apache 2.0. Full license text is available in [swagger-ui/LICENSE](https://github.com/swagger-api/swagger-ui/blob/master/LICENSE).
